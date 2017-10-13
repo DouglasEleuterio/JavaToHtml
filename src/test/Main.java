@@ -27,6 +27,7 @@ import br.com.everton.html5.Body;
 import br.com.everton.html5.Head;
 import br.com.everton.html5.Html;
 import br.com.everton.html5.Section;
+import br.com.everton.html5.Table;
 
 /**
  *
@@ -52,8 +53,11 @@ public class Main {
         // section2
         Section section2 = new Section();
         section2.setIdAttribute("section2");
-        section2.append("content of section2");        
-
+        section2.append("content of section2");  
+        
+        //Table
+        Table table = new Table();
+        
         // body
         Body body = new Body();
         body.append(section1);
